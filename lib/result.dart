@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './main.dart';
+
 
 class Result extends StatelessWidget {
   final int resultScore;
@@ -40,6 +40,7 @@ class Result extends StatelessWidget {
             color: Colors.blue,
           )
         ],
+        mainAxisAlignment: MainAxisAlignment.center,
       ),
     );
   }
